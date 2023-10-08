@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+h2 {
+  font-size: 50px;
+  color: white;
+}
+p {
+  font-size: 25px;
+}
+#count-el {
+  font-size: 70px;
+  color: white;
+}
+#container1 {
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  padding: 20px 10px;
+  width: 25%;
+  background-image: url(sv4.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  height: auto;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px 5px rgb(0, 0, 0, 0.3);
+}
+#container2 {
+  background-color: aquamarine;
+  background-position: center;
+  background-size: cover;
+  padding: 30px 40px;
+  border-radius: 3px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  margin: auto;
+  height: auto;
+  row-gap: 10px;
+}
+#increment-btn {
+  background-color: darkred;
+  padding: 20px 100px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  border: 0;
+  cursor: pointer;
+}
+#save-btn {
+  background-color: green;
+  padding: 20px 100px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  border: 0;
+  cursor: pointer;
+}
